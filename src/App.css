@@ -1,4 +1,46 @@
 .App {
+  background-color: #1B1A1E;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+}
+.Footer{
+  position: fixed;
+  bottom:  3%;
+  width: 50%;
+  height: 8%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #252429;
+  border: 1px solid #35343A;
+  border-radius: 14px;
+  overflow: hidden;
+  max-width: 300px;
+  max-height: 300px;
+
+}
+.icon-container{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-text {
+  display: flex;
+  align-items: center;
+  margin-top: -5%;
+  font-size: 50%;
+  color: #8A8882;
+  font-family: Poppins;
+}
+
+
+
+/*
+.App {
   text-align: center;
 }
 
@@ -36,3 +78,4 @@
     transform: rotate(360deg);
   }
 }
+*/

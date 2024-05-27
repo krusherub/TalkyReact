@@ -1,0 +1,108 @@
+.user-info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#profile-image{
+    margin-top: 30%;
+    width: 30vmin;
+    height: 30vmin;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#name{
+    color: #F4F3F8;
+    font-family: Poppins;
+    margin-top: 5%;
+    font-size: 130%;
+}
+#username{
+    color: #F0C045;
+    font-family: Poppins;
+    font-size: 90%;
+}
+.address-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#address{
+    color: #F4F3F8;
+    font-family: Poppins;
+    font-size: 70%;
+}
+
+
+.private-group-container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #2D2B32;
+    border-radius: 14px;
+    width: 90%;
+    height: 13vw;
+    max-height: 50px;
+}
+.private-group{
+    display: flex;
+    align-items: center;
+}
+#private-group-logo{
+    width: 7vmin;
+    height: 7vmin;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -40%;
+}
+#group-text{
+    color: #8A8882;
+    margin-left: 5%;
+    font-size: 3.5vmin;
+    font-family: Poppins;
+}
+#private-group-name{
+    color: #F4F3F8;
+    font-size: 3.5vmin;
+    margin-left: 3%;
+    font-family: Poppins;
+}
+#add-group{
+    color: #F0C045;
+    font-size: 3.5vmin;
+    margin-left: 30%;
+    font-family: Poppins;
+    text-decoration: none
+}
+
+.X-add-account-container {
+    display: flex;
+    background-color: #222126;
+    border-radius: 14px;
+    height: 13vmin;
+    width: 90%;
+    margin-top: 2%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%; /* Добавляем отступы слева и справа */
+    box-sizing: border-box;
+    max-height: 50px;
+}
+
+#text-add-account {
+    color: #8A8882;
+    font-size: 3.5vmin; /* Адаптивный размер текста */
+    text-align: center;
+    flex-grow: 1; /* Заставляет текст занимать доступное пространство */
+    font-family: Poppins;
+}
+
+#x-svg {
+    width: 5vmin; /* Адаптивная ширина SVG */
+    height: auto;
+    margin-left: auto; /* Сдвигаем SVG вправо */
+}
