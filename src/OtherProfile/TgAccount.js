@@ -1,12 +1,8 @@
-import searchImg from './menu/searchImg.png'
-import chatImg from './menu/chatImg.png'
-import avatar from './profile/avatar.png'
-import logoX from './profile/logoX.png'
-import './App.css';
-import './Profile.css';
-import './XAccount.css';
-import {useEffect} from "react";
-import Footer from "./Footer";
+import logoX from '../profile/logoX.png'
+import '../App.css';
+import '../profile/Profile.css';
+import '../profile/XAccount.css';
+
 
 function XAccount() {
     return (

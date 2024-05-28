@@ -1,6 +1,4 @@
-import searchImg from './menu/searchImg.png'
-import chatImg from './menu/chatImg.png'
-import './App.css';
+import '../App.css';
 
 function Footer() {
     return (

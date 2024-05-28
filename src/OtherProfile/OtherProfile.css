@@ -1,0 +1,113 @@
+.other-user-info-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    margin-top: 9%;
+    margin-left: 4%;
+}
+#other-profile-image{
+    width: 30vmin;
+    height: 30vmin;
+    max-width: 130px;
+    max-height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.other-info-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+#other-name{
+    color: #F4F3F8;
+    font-family: Poppins;
+    margin-top: 5%;
+    font-size: 5vmin;
+}
+#other-username{
+    color: #F0C045;
+    font-family: Poppins;
+    font-size: 4vmin;
+}
+.other-address-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#other-address{
+    color: #F4F3F8;
+    font-family: Poppins;
+    font-size: 3vmin ;
+}
+
+.buy-container{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9%;
+}
+.price-container{
+    display: flex;
+    align-items: center;
+}
+
+#price{
+    color:#F4F3F8;
+    font-family: Poppins;
+    font-size: 4vmin;
+    margin-left: 2vmin;
+}
+#image-ton{
+    height: 7vmin;
+    width: 7vmin;
+}
+#buy-sell{
+    background-color:#F0C045;
+    border-radius: 8px;
+    height: 10vmin;
+}
+
+.info-container{
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    border-radius: 14px;
+    border: 1px solid #2D2B32;
+    width: 90%;
+    padding: 2vmin;
+}
+.holders-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.holding-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.holders-container span:first-child{
+    color:#8A8882;
+    font-size: 3.5vmin;
+    font-family: Poppins;
+}
+.holders-container span:nth-child(2){
+    color: #F0C045;
+    font-size: 3.5vmin;
+    font-family: Poppins;
+}
+
+.holding-container span:first-child{
+    color:#8A8882;
+    font-size: 3.5vmin;
+    font-family: Poppins;
+}
+.holding-container span:nth-child(2){
+    color: #F0C045;
+    font-size: 3.5vmin;
+    font-family: Poppins;
+}
