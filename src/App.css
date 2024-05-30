@@ -27,15 +27,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #8A8882;
 }
 .icon-text {
   display: flex;
   align-items: center;
   margin-top: -5%;
   font-size: 50%;
-  color: #8A8882;
+  color: inherit;
   font-family: Poppins;
 }
+.icon-container.active {
+  color: #F0C045;
+}
+
+.icon-container.active svg path {
+  fill: #F0C045;
+}
+
+
 
 
 
